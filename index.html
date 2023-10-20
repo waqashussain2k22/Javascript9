@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        var names = prompt ("enter name (Michael, John, Tony)" )
+var studentNames = ["Michael", "John", "Tony"];
+var scores = [320, 230, 480];
+var totalMarks = 500;
+
+
+
+for (var i = 0; i < studentNames.length; i++) {
+    var percentage = (scores[i] / totalMarks) * 100;
+    document.write("Score of " + studentNames[i] + " is " + scores[i] + ". Percentage: " + percentage + "%<br>");
+}
+
+
+    </script>
+</body>
+
+</html>
